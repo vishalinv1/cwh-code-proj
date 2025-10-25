@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form</title>
+</head>
+
+<body>
+    <!-- without using <br> tag, write a vertically aligned form asking for name, city and pincode of a writer -->
+    <form action="/submit" method="post">
+        <div>
+            <caption> User Intro</caption>
+        </div>
+
+        <p><label for="name">Enter Your Name Kid</label>
+            <input type="text" name="name" placeholder="Enter you Name">
+        </p>
+
+        <p><label for="city">Enter Your City Kid</label>
+            <input type="text" name="city" placeholder="Enter you city">
+        </p>
+
+        <p><label for="pincode">Enter Your pincode Kid</label>
+            <input type="number" name="pincode" placeholder="Enter you pincode">
+        </p>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+
+</html>

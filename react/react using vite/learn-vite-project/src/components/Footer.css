@@ -1,0 +1,8 @@
+.ip {
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    background-color: #624e4e;
+    color: aliceblue;
+    bottom: 0;
+}
